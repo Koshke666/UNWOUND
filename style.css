@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header-box{
+
+}
+
+.face {
+    margin: 0 auto;
+    width: 1280px;
+    height: 643px;
+    background-image: url(./img/rectangle.png);
+}
+
+.padding-site {
+    padding-left: 70px;
+    padding-top: 32px
+}
+
+.menu-link {
+    font-size: 16px;
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+.box-link {
+    font-size: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu-list {
+    float: left;
+}
+
+.menu {
+    float: left;
+}
+
+.header {
+    padding-top: 48px;
+}
