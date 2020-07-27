@@ -17,6 +17,10 @@
     float: left;
 }
 
+.header {
+    padding-top: 48px;
+}
+
 .face {
     margin: 0 auto;
     height: 643px;
@@ -57,13 +61,46 @@
     height: 466px;
     float: right;
     margin-right: 52px;
-    margin-top: 177px ;
+}
+
+.white-line {
+    width: 449px;
+    height: 466px;
+    float: right;
+    margin-top: 177px;
+}
+
+.black-box h2 {
+    margin-left: 36px;
+    font-size: 36px;
+    color: #ffffff;
 }
 
 .box-menu {
     list-style-type: none;
 }
 
-.header {
-    padding-top: 48px;
+.box-menu li {
+    margin-left: 14px;
+    font-size: 21px;
+}
+
+.face-text {
+    font-size: 36px;
+    color: #383737
+}
+
+.face-text h2 {
+    margin-left: 129px;
+    font-size: 36px;
+    width: 97px;
+    height: 48px;
+}
+
+.face-text p {
+    font-size: 16px;
+    margin-left: 129px;
+    margin-top: 20px;
+    width: 331px;
+    height: 300px;
 }
