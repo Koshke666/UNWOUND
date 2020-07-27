@@ -3,26 +3,26 @@
     padding: 0;
 }
 
-.conteiner {
+.container {
     width: 1280px;
     margin: 0 auto;
 }
 
-.header-box{
+.header-box {
+    width: 1280px;
+    height: 110px;
+}
 
+.logo {
+    float: left;
 }
 
 .face {
     margin: 0 auto;
-    width: 1280px;
     height: 643px;
-    background-image: url(./img/rectangle.png);
+    background-image: url(./img/rectangle\(split2\).png);
 }
 
-.padding-site {
-    padding-left: 70px;
-    padding-top: 32px
-}
 
 .menu-link {
     font-size: 16px;
@@ -47,9 +47,11 @@
 }
 
 .menu {
+    list-style-type: none;
     float: left;
 }
 
 .header {
     padding-top: 48px;
 }
+
