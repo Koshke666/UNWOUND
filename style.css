@@ -51,7 +51,19 @@
     float: left;
 }
 
+.black-box {
+    background-color: #2e2e2e;
+    width: 397px;
+    height: 466px;
+    float: right;
+    margin-right: 52px;
+    margin-top: 177px ;
+}
+
+.box-menu {
+    list-style-type: none;
+}
+
 .header {
     padding-top: 48px;
 }
-
