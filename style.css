@@ -16,7 +16,6 @@
 .logo {
     margin-top: 23px;
     margin-left: 70px;
-    margin-right: 47px;
     float: left;
 }
 
@@ -26,7 +25,7 @@
     color: #2f2f2f;
 }
 
-.menu li{
+.menu li {
     margin-right: 40px;
 }
 
@@ -77,6 +76,8 @@
 }
 
 .black-box {
+
+    margin-top: -127px;
     background-color: #2e2e2e;
     width: 397px;
     height: 466px;
@@ -84,27 +85,60 @@
     margin-right: 52px;
 }
 
-.white-line {
+.black-area {
     width: 449px;
     height: 466px;
     float: right;
     margin-top: 177px;
 }
 
-.black-box h2 {
-    margin-left: 36px;
+.delaem {
+    border-bottom: 1px solid #ffffff;
+    position: relative;
+    height: 127px;
+    float: right;
+    width: 449px;
+}
+
+.delaem h2 {
+    margin-top: 72px;
+    width: 126px;
+    height: 48px;
+    object-fit: contain;
+    font-family: "Playfair Display";
     font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
     color: #ffffff;
+    margin-left: 14px;
 }
 
 .box-menu {
     list-style-type: none;
+    margin-top: 162px
+}
+
+.box-menu a {
+    width: 98px;
+    height: 24px;
+    object-fit: contain;
+    font-family: "Helvetica Neue";
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .box-menu li {
-    text-decoration: none;
+    margin-bottom: 24px;
     margin-left: 14px;
-    font-size: 21px;
 }
 
 .face-text {
@@ -132,7 +166,7 @@
     width: 331px;
     height: 300px;
     object-fit: contain;
-    font-family: HelveticaNeue;
+    font-family: "Helvetica Neue";
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
