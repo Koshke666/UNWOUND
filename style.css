@@ -33,7 +33,7 @@
     width: 97px;
     height: 19px;
     object-fit: contain;
-    font-family: HelveticaNeue;
+    font-family: "Helvetica Neue";
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -141,15 +141,22 @@
     margin-left: 14px;
 }
 
-.face-text {
-    width: 331px;
-    margin-top: 224px;
-    margin-left: 129px;
-    margin-bottom: 20px;
+.black-line {
+    margin-top: 56px;
+    width: 357px;
+    height: 208px;
+    border-left: #383737 solid 1px;
 }
 
-.face-text h2 {
+.face-text-area {
+    width: 357px;
+    height: 536px;
+    margin-left: 129px;
     margin-bottom: 20px;
+    float:left;
+}
+
+.o_nas h2 {
     width: 97px;
     height: 36px;
     object-fit: contain;
@@ -163,8 +170,17 @@
     color: #383737;
 }
 
+.o_nas{
+    height: 36px;
+    width: 97px;
+    margin-top: 163px;
+    float: left;
+}
+
+
 .face-text p {
     overflow: hidden;
+    /* не уверен что это лучшее решщение */
     width: 331px;
     height: 300px;
     object-fit: contain;
