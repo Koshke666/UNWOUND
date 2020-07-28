@@ -14,7 +14,35 @@
 }
 
 .logo {
+    margin-top: 23px;
+    margin-left: 70px;
+    margin-right: 47px;
     float: left;
+}
+
+.menu {
+    margin-top: 48px;
+    margin-left: 47px;
+    color: #2f2f2f;
+}
+
+.menu li{
+    margin-right: 40px;
+}
+
+.menu a {
+    width: 97px;
+    height: 19px;
+    object-fit: contain;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2f2f2f;
+    text-decoration: none;
 }
 
 .header {
@@ -27,14 +55,7 @@
     background-image: url(./img/rectangle\(split2\).png);
 }
 
-
-.menu-link {
-    font-size: 16px;
-    color: #2f2f2f;
-    text-decoration: none;
-}
-
-.box-link {
+.box-link a {
     font-size: 21px;
     color: #ffffff;
     text-decoration: none;
@@ -81,26 +102,64 @@
 }
 
 .box-menu li {
+    text-decoration: none;
     margin-left: 14px;
     font-size: 21px;
 }
 
 .face-text {
-    font-size: 36px;
-    color: #383737
+    width: 331px;
+    margin-top: 224px;
+    margin-left: 129px;
 }
 
 .face-text h2 {
-    margin-left: 129px;
-    font-size: 36px;
     width: 97px;
-    height: 48px;
+    height: 36px;
+    object-fit: contain;
+    font-family: "PlayfairDisplay";
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #383737;
 }
 
 .face-text p {
-    font-size: 16px;
-    margin-left: 129px;
     margin-top: 20px;
     width: 331px;
     height: 300px;
+    object-fit: contain;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.2px;
+    color: #383737;
+}
+
+.footer {
+    margin: 0 auto;
+    margin-top: 78px;
+    height: 203px;
+    width: 1280px;
+}
+
+.footer img {
+    height: 181px;
+    width: 1280px;
+}
+
+.black-footer {
+    margin-top: -22px;
+    position: relative;
+    z-index: 2;
+    width: 1280px;
+    height: 43px;
+    object-fit: contain;
+    background-color: #1a1a1a;
 }
