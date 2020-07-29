@@ -151,9 +151,17 @@
 .face-text-area {
     width: 357px;
     height: 536px;
-    margin-left: 129px;
+    margin-left: 102px;
     margin-bottom: 20px;
-    float:left;
+    float: left;
+}
+
+.o_nas {
+    margin-top: 168px;
+    margin-left: 26px;
+    height: 36px;
+    width: 97px;
+    float: left;
 }
 
 .o_nas h2 {
@@ -170,15 +178,11 @@
     color: #383737;
 }
 
-.o_nas{
-    height: 36px;
-    width: 97px;
-    margin-top: 163px;
-    float: left;
-}
 
 
 .face-text p {
+    margin-left: 26px;
+    margin-top: 20px;
     overflow: hidden;
     /* не уверен что это лучшее решщение */
     width: 331px;
@@ -202,6 +206,7 @@
 }
 
 .footer img {
+    margin-top: 78px;
     height: 181px;
     width: 1280px;
 }
